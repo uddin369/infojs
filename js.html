@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>My page</title>
+<script src="my.js"></script>
+</head>
+
+
+<body>
+
+<p id="para">
+
+</p>
+
+
+
+
+
+<input type="text" name="fn" id="fn" />
+
+<input type="text" name="sn" id="sn" />
+
+<button onclick="valid('fn','sn');">Click</button>
+
+<br/>
+
+<input type="text" name="fname" id="fname" />
+
+<input type="text" name="sn" id="ft" />
+
+<button onclick="sc();">Click</button>
+
+
+<script>
+
+
+function valid(a,b){
+//alert(a);
+var x=document.getElementById(a).value;
+var y=document.getElementById(b).value;
+
+var len=x.length;
+
+if(x===y){
+	document.getElementById(a).value="";
+	document.getElementById(b).value="";
+	
+	
+	document.getElementById(a).focus();
+	
+
+}
+
+
+
+
+}
+
+
+
+
+document.getElementById("para").innerHTML="Hello";
+
+var fnumber=3;
+
+var snumber="String";
+
+
+
+
+if(fnumber==3){
+
+fnumber=true;
+
+var sum= fnumber;
+}
+
+if(fnumber==3){
+
+fnumber=true;
+
+var sum= fnumber;
+}
+
+
+document.write('<br/>This My First Numner: '+fnumber);
+
+document.write('<br/>This My Second Numner: '+snumber);
+
+
+for(i=0;i<=4;i++)
+	document.write('<br/>This My Result: '+sum+snumber);
+
+do{
+a=s+r;
+}while(a<10)
+
+
+while(a<10){
+a=s+r;
+}
+
+for(I=0;I<9;I++){
+}
+
+
+function show(){
+	
+	alert("Here I am!!!");
+
+
+}
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
